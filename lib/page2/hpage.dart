@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:f_boot1/page2/button_text.dart';
+import 'package:f_boot1/page2/text_section.dart';
 import 'package:flutter/material.dart';
 
 class DemoTwoPage extends StatefulWidget {
@@ -82,22 +83,21 @@ class _DemoTwoPageState extends State<DemoTwoPage> {
 
 //Text Section
 
-class TextSection extends StatelessWidget {
-  const TextSection({
-    super.key,
-    required this.description,
-  });
+// class TextSection extends StatelessWidget {
+//   const TextSection({
+//     super.key,
+//     required this.description,
+//   });
 
-  final String description;
+//   final String description;
 
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(32),
-      child: Text(
-        description,
-        softWrap: true,
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Padding(
+//       padding: const EdgeInsets.all(32),
+//       child: Text(
+//         description,
+//         softWrap: true,
+//       ),
+//     );
+//   }
